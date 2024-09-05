@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 4px;
+    box-sizing: border-box;
+}
+
+.Header {
+    height: 100px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Body {
+    height: 570px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.Navbar {
+    padding-left: 20px;
+    width: 225px;
+    height: 561px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+
+}
+
+.Navbar a {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.Content {
+    border: 1px solid red;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.Footer {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
